@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Pacman Quest</title>
+    <title>Pacman Quest</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=960 height=540 style="width: 960px; height: 540px; background: url('Build/build.jpg.br') center / cover"></canvas>
+    <canvas id="unity-canvas" width=960 height=540 style="width: 960px; height: 540px; background: url('Build/build.jpg.unityweb') center / cover"></canvas>
     <script src="Build/build.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -25,11 +25,11 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/build.data.br",
-        frameworkUrl: "Build/build.framework.js.br",
-        codeUrl: "Build/build.wasm.br",
+        dataUrl: "Build/build.data.unityweb",
+        frameworkUrl: "Build/build.framework.js.unityweb",
+        codeUrl: "Build/build.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "MrPio",
         productName: "Pacman Quest",
         productVersion: "1.0",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
