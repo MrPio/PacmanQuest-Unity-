@@ -1,5 +1,7 @@
 # PacmanQuest-Unity-
 ## Play it [HERE](https://mrpio.github.io/PacmanQuest-Unity-/)
+### ⏱️Time Invested: 6 days
+## Screenshoots
 ![Screenshot_20230129_174836](https://user-images.githubusercontent.com/22773005/215341322-62a109ca-f727-41e7-b00f-b61f5a695f63.png)
 ![vlcsnap-2023-01-29-17h41m39s772](https://user-images.githubusercontent.com/22773005/215341330-180d47c2-d123-4b3b-aeb1-734ec215aec5.png)
 ![vlcsnap-2023-01-29-17h41m47s180](https://user-images.githubusercontent.com/22773005/215341334-6f2b6dd5-b164-4aea-be29-3141be7564b6.png)
